@@ -1,0 +1,30 @@
+# Relational model
+
+	The relational model is the best known and in today’s DBMS
+	most often implemented database model. 
+	It defines a database as a collection of tables 
+	(relations) which contain all data. 
+	This module deals predominantly with the relational database model 
+	and the database systems based on it.
+
+# Object Oriented model
+
+	Object-oriented models define a database 
+	as a collection of objects with features and methods.
+
+# Network Model and Hierarchical Model:
+
+	The network model and the hierarchical model are 
+	the predecessors of the relational model.
+	They build upon individual data sets 
+	and are able to express hierarchical or network
+	like structures of the real world.
+
+# Object-relational Model
+
+	Object-oriented models are very powerful but also quite complex. 
+	With the relatively new object-relational
+	database model is the wide spread and simple relational database model 
+	extended by some basic object-oriented concepts. 
+	These allow us to work with the widely know relational database model
+	but also have some advantages of the object-oriented model without its complexity.

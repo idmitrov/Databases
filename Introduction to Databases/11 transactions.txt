@@ -1,0 +1,34 @@
+# Transactions:
+
+	A transaction symbolizes a unit of work performed within a database management system (or similar system) against a database,
+	and treated in a coherent and reliable way independent of other transactions. A transaction generally represents any change in database.
+	Transactions in a database environment have two main purposes:
+	
+	To provide reliable units of work that allow correct recovery from failures and keep a database consistent even in cases of system failure,
+	when execution stops (completely or partially) and many operations upon a database remain uncompleted, with unclear status.
+
+	To provide isolation between programs accessing a database concurrently. If this isolation is not provided, the program's outcome are possibly erroneous.
+	A database transaction, by definition, must be atomic, consistent, isolated and durable.
+	Database practitioners often refer to these properties of database transactions using the acronym ACID.
+
+# ACID transaction:
+
+	ACID is a set of properties that you would like to apply when modifying a database.
+
+	-Atomicity
+	-Consistency
+	-Isolation
+	-Durability
+
+	A transaction is a set of related changes which is used to achieve some of the ACID properties.
+	Transactions are tools to achieve the ACID properties.
+
+# Transaction log:
+
+	Every SQL Server database has a transaction log that records all transactions and the database modifications made by each transaction. 
+	The transaction log must be truncated on a regular basis to keep it from filling up. 
+	However, some factors can delay log truncation, so monitoring log size is important. 
+	Some operations can be minimally logged to reduce their impact on transaction log size.
+	The transaction log is a critical component of the database and, if there is a system failure,
+	the transaction log might be required to bring your database back to a consistent state. 
+	The transaction log should never be deleted or moved unless you fully understand the ramifications of doing this.
