@@ -5,11 +5,13 @@
 
 SELECT FirstName, LastName, Salary
 FROM Employees
-WHERE Salary BETWEEN (
+WHERE Salary BETWEEN 
+(
 	SELECT MIN(Salary)
 	FROM Employees
-) AND (
-	SELECT
-	MIN(Salary) + MIN(Salary) / 10
+)
+AND 
+(
+	SELECT MIN(Salary) + MIN(Salary) / 10
 	FROM Employees
 )
