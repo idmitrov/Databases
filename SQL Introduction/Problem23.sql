@@ -1,6 +1,6 @@
 SELECT
 	e.FirstName + ' ' + e.LastName 
-AS	[Employee],
+AS [Employee],
 	m.FirstName + ' ' + m.LastName
 AS [Manager]
 FROM Employees e LEFT OUTER JOIN Employees m
