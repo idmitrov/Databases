@@ -5,8 +5,8 @@ FROM Employees e JOIN Departments d
   ON e.DepartmentID = d.DepartmentID
 WHERE d.Name = 'Sales'
 
-SELECT AVG(Salary)
-FROM Employees e
+--SELECT AVG(Salary)
+--FROM Employees e
 --WHERE e.DepartmentID = 
 --(
 --	SELECT DepartmentID
