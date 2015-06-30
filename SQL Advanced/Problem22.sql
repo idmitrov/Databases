@@ -1,5 +1,4 @@
 /*
-	You should submit a SQL file as a part of your homework.
 	Problem 22.	Write SQL statements to insert in the Users table the names of all employees from the Employees table.
 
 	Combine the first and last names as a full name. 
