@@ -1,6 +1,8 @@
 --Problem 27.	Write a SQL query to display the town where maximal number of employees work.
 
-SELECT towns.Name , MAX(towns.empCount) AS maxCount
+SELECT 
+	towns.Name AS [Town] , 
+	MAX(towns.empCount) AS [Number of Employees]
 FROM
 (
 	SELECT DISTINCT t.Name, COUNT(*) AS empCount
