@@ -5,8 +5,6 @@
 	Use the same for the password, and NULL for last login time.
 */
 
-
---NOTICE USET WINDOWED FUNCTION TO PREVENT username DUPLICATIONS
 INSERT INTO Users(username, password, [full name], [last login time], GroupID)
 SELECT username, password, [full name], [last login time], GroupID
 FROM
