@@ -7,8 +7,6 @@
 	Write a SELECT to test whether the function works as expected.
 */
 
-DROP FUNCTION dbo.ufn_CalcSum
-
 USE MoneySystem
 
 GO

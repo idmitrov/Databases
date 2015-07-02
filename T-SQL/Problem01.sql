@@ -6,6 +6,10 @@
 	Write a stored procedure that selects the full names of all persons.
 */
 
+CREATE DATABASE MoneySystem
+
+GO
+
 USE MoneySystem
 
 GO
